@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://somilror200.github.io/mra-concreting-website/sitemap.xml
