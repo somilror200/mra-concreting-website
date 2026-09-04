@@ -1,0 +1,23 @@
+/* Midway Concrete credibility block */
+.home .industry-proof{background:#111211;color:#fff;padding:34px max(4.5vw,28px);border-top:1px solid rgba(255,255,255,.07);border-bottom:1px solid rgba(255,255,255,.07)}
+.home .industry-proof-inner{width:min(1240px,100%);margin:0 auto;display:grid;grid-template-columns:230px minmax(0,1fr) auto;align-items:center;gap:34px}
+.home .midway-wordmark{min-height:112px;display:flex;flex-direction:column;justify-content:center;align-items:center;border:1px solid rgba(208,161,95,.38);background:#181918;padding:20px;text-align:center}
+.home .midway-wordmark strong{font-family:var(--head);font-size:27px;line-height:1;letter-spacing:.04em;color:#d0a15f;text-transform:uppercase}
+.home .midway-wordmark span{margin-top:7px;font-size:9px;font-weight:800;letter-spacing:.16em;color:#9ea09a;text-transform:uppercase}
+.home .industry-proof-copy .kicker{margin:0 0 7px;color:#d0a15f;font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.home .industry-proof-copy h2{margin:0 0 8px;font-family:var(--head);font-size:clamp(25px,2.5vw,36px);line-height:1.05;color:#fff;text-transform:uppercase}
+.home .industry-proof-copy p{margin:0;color:#b1b3ad;font-size:12px;line-height:1.6;max-width:720px}
+.home .industry-proof-copy small{display:block;margin-top:7px;color:#777a74;font-size:9px;line-height:1.45}
+.home .industry-proof .button{white-space:nowrap;min-height:42px;padding:0 18px;background:#b98248;border-color:#b98248;color:#fff;font-size:10px}
+.home .industry-proof .button:hover{background:#d0a15f;border-color:#d0a15f;filter:none}
+@media(max-width:900px){
+  .home .industry-proof-inner{grid-template-columns:180px 1fr;gap:24px}
+  .home .industry-proof .button{grid-column:2;justify-self:start}
+}
+@media(max-width:620px){
+  .home .industry-proof{padding:30px 22px}
+  .home .industry-proof-inner{grid-template-columns:1fr;gap:18px;text-align:center}
+  .home .midway-wordmark{min-height:88px;max-width:260px;width:100%;margin:0 auto}
+  .home .industry-proof-copy p{max-width:460px;margin:0 auto}
+  .home .industry-proof .button{grid-column:auto;justify-self:center}
+}
