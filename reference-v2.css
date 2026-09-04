@@ -1,0 +1,109 @@
+/* MRA reference-match pass — tuned against the supplied screenshots. */
+.home{background:#f6f5f1}
+
+/* Header: compact, black, gold brand, clean spacing. */
+.home .site-header{height:86px;padding:0 clamp(28px,4.2vw,68px);background:rgba(11,12,11,.985)!important;border-bottom:1px solid rgba(255,255,255,.07)}
+.home .brand{width:106px}
+.home .brand span{font-size:45px;letter-spacing:.055em}
+.home .brand small{font-size:9px;letter-spacing:.18em;margin-top:5px}
+.home .site-nav{gap:clamp(13px,1.35vw,24px)}
+.home .site-nav a{font-size:11px;letter-spacing:.035em;padding:31px 0 27px}
+.home .header-cta{min-height:40px;padding:0 18px;font-size:10px}
+
+/* Hero: stronger photographic area and narrower copy block like the reference. */
+.home .hero{min-height:610px}
+.home .hero:before{background-position:center 56%;filter:saturate(.72) contrast(1.04)}
+.home .hero:after{background:linear-gradient(90deg,rgba(4,5,4,.96) 0%,rgba(4,5,4,.82) 34%,rgba(4,5,4,.30) 58%,rgba(4,5,4,.05) 82%),linear-gradient(0deg,rgba(0,0,0,.32),transparent 48%)}
+.home .hero-copy{padding:160px 0 92px;margin-left:max(5.4vw,52px);width:min(590px,88vw)}
+.home .hero h1{font-size:clamp(50px,5vw,72px);line-height:.98;max-width:575px;margin-bottom:16px}
+.home .hero .subhead{font-size:17px;margin-bottom:9px}
+.home .hero .lead{font-size:14px;line-height:1.55;max-width:520px}
+
+/* Dark five-column proof strip. */
+.home .trust-panel{background:#181918;color:#fff;padding:34px max(3.2vw,28px) 38px;border-top:1px solid rgba(255,255,255,.08);border-bottom:1px solid rgba(255,255,255,.06)}
+.home .trust-heading{text-align:center;font:700 clamp(23px,2.15vw,31px)/1.15 var(--body);letter-spacing:-.02em;margin:0 auto 26px;color:#f5f5f2}
+.home .trust-panel .trust-strip{max-width:1260px;margin:auto;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));background:transparent;border:1px solid rgba(185,130,72,.20)}
+.home .trust-panel .trust-item{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;min-height:225px;padding:25px 18px 22px;text-align:center;border-right:1px solid rgba(185,130,72,.20);border-top:0!important;gap:13px}
+.home .trust-panel .trust-item:last-child{border-right:0}
+.home .trust-panel .trust-item .trust-icon{width:62px;height:62px;min-width:62px;border:1.5px solid #a9743e;border-radius:50%;display:flex!important;align-items:center;justify-content:center;margin:0!important}
+.home .trust-panel .trust-item>div>strong{display:block;font:700 15px/1.2 var(--body);text-transform:none;color:#fff;margin:0 0 9px;letter-spacing:-.01em}
+.home .trust-panel .trust-item>div>span{display:block;max-width:170px;margin:0 auto;color:#a6a8a2;font-size:11px;line-height:1.52}
+.home .trust-panel .trust-item:nth-child(4) .trust-icon{flex-direction:column!important;gap:2px!important}
+.home .trust-panel .trust-item:nth-child(4) .trust-icon::before{font-size:19px!important;line-height:.85!important}
+.home .trust-panel .trust-item:nth-child(4) .trust-icon::after{font-size:7px!important;letter-spacing:.09em!important}
+
+/* Reference services strip: white, image-led, six items across. */
+.home .services-showcase{background:#f6f5f1!important;color:#222321;padding:54px max(2.2vw,24px) 58px!important}
+.home .services-showcase .section-inner{max-width:1320px}
+.home .services-showcase-title{margin:0 auto 27px!important}
+.home .services-showcase-title h2{font:700 clamp(32px,3.1vw,44px)/1 var(--body)!important;text-transform:none!important;letter-spacing:-.03em;color:#1d1e1c!important;margin:0 0 11px!important}
+.home .services-underline{width:54px;height:3px;background:#b98248;margin:0 auto;border-radius:0}
+.home .services-showcase-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:18px;align-items:start}
+.home .service-thumb-card{display:block;text-align:center;transform:none!important}
+.home .service-thumb-image{aspect-ratio:1.55/1;margin-bottom:12px;overflow:hidden;border:0;background:#d7d6d1;box-shadow:0 1px 5px rgba(0,0,0,.11)}
+.home .service-thumb-image img{width:100%;height:100%;object-fit:cover;transition:transform .28s ease}
+.home .service-thumb-card:hover img{transform:scale(1.025)}
+.home .service-thumb-card h3{font:700 13px/1.35 var(--body);text-transform:none;color:#262724;margin:0 auto;max-width:175px;letter-spacing:-.015em}
+.home .services-showcase .center-action{margin-top:30px}
+.home .services-button{min-height:39px!important;padding:0 18px!important;background:#171817!important;border-color:#171817!important;font-size:9px!important}
+
+/* Foundation block follows the same clean white editorial look. */
+.home .foundation-section{background:#f7f6f2;padding-top:82px;padding-bottom:84px}
+.home .foundation-section .split{grid-template-columns:.82fr 1.18fr;gap:64px}
+.home .foundation-section h2{font-size:clamp(38px,4.1vw,56px);line-height:.99;max-width:520px}
+.home .foundation-section p{font-size:13px;line-height:1.65;max-width:500px}
+.home .foundation-section .image-frame{height:430px}
+
+/* Keep the experience band strong but quieter than the content above. */
+.home .experience-band{min-height:250px}
+.home .experience-inner{max-width:1180px;grid-template-columns:150px 1fr auto;gap:34px}
+.home .years-badge{width:132px;height:132px}
+
+/* Mobile follows the supplied phone screenshot: full-width stacked trust rows. */
+@media(max-width:1100px){
+  .home .site-header{height:86px;padding:0 34px}
+  .home .brand{width:100px}
+  .home .brand span{font-size:43px}
+  .home .hero{min-height:570px}
+  .home .hero-copy{margin-left:42px;width:min(560px,78vw)}
+  .home .trust-panel .trust-strip{grid-template-columns:repeat(5,1fr)}
+  .home .trust-panel .trust-item{min-height:214px;padding:24px 12px}
+  .home .trust-panel .trust-item>div>strong{font-size:13px}
+  .home .trust-panel .trust-item>div>span{font-size:10px;max-width:150px}
+  .home .services-showcase-grid{grid-template-columns:repeat(3,1fr);gap:24px 18px}
+}
+
+@media(max-width:760px){
+  .home .site-header{height:72px;padding:0 20px}
+  .home .brand{width:82px}
+  .home .brand span{font-size:34px}
+  .home .brand small{font-size:8px}
+  .home .hero{min-height:530px}
+  .home .hero-copy{padding:116px 0 62px;margin-left:24px;width:calc(100% - 48px)}
+  .home .hero h1{font-size:42px;max-width:390px}
+  .home .hero .subhead{font-size:14px}
+  .home .trust-panel{padding:28px 0 0}
+  .home .trust-heading{padding:0 24px;margin-bottom:24px;font-size:21px}
+  .home .trust-panel .trust-strip{grid-template-columns:1fr;border-left:0;border-right:0;max-width:none}
+  .home .trust-panel .trust-item{min-height:124px;display:grid;grid-template-columns:72px 1fr;align-items:center;text-align:left;gap:20px;padding:22px 28px;border-right:0!important;border-top:1px solid rgba(185,130,72,.20)!important}
+  .home .trust-panel .trust-item:first-child{border-top:0!important}
+  .home .trust-panel .trust-item .trust-icon{width:60px;height:60px;min-width:60px}
+  .home .trust-panel .trust-item>div>strong{font-size:15px;margin-bottom:6px}
+  .home .trust-panel .trust-item>div>span{font-size:11px;max-width:none;margin:0}
+  .home .services-showcase{padding:52px 18px 56px!important}
+  .home .services-showcase-title{margin-bottom:24px!important}
+  .home .services-showcase-title h2{font-size:34px!important}
+  .home .services-showcase-grid{grid-template-columns:repeat(2,1fr);gap:22px 12px}
+  .home .service-thumb-card h3{font-size:12px;max-width:150px}
+  .home .foundation-section{padding:68px 20px}
+  .home .foundation-section .split{grid-template-columns:1fr;gap:32px}
+  .home .foundation-section .image-frame{height:330px}
+}
+
+@media(max-width:420px){
+  .home .hero h1{font-size:39px}
+  .home .trust-panel .trust-item{grid-template-columns:64px 1fr;padding:21px 22px;gap:17px}
+  .home .trust-panel .trust-item .trust-icon{width:56px;height:56px;min-width:56px}
+  .home .services-showcase-grid{grid-template-columns:repeat(2,1fr);gap:20px 10px}
+  .home .service-thumb-card h3{font-size:11px}
+}
