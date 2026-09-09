@@ -1,0 +1,26 @@
+:root{
+  --black:#1a1a1a;
+  --charcoal:#1a1a1a;
+  --card:#242321;
+  --gold:#c9975a;
+  --gold2:#d3aa74;
+  --green:#c9975a;
+  --paper:#f5f1ea;
+  --text:#25231f;
+  --muted:#777168;
+  --head:'Playfair Display',Georgia,serif;
+  --body:'Inter','Open Sans',Arial,sans-serif;
+}
+
+.button{
+  background:#c9975a!important;
+  border-color:#c9975a!important;
+  color:#171511!important;
+}
+.button:hover{background:#d6a76b!important;border-color:#d6a76b!important}
+.button.outline{background:transparent!important;border-color:rgba(255,255,255,.7)!important;color:#fff!important}
+.button.outline:hover{background:#fff!important;border-color:#fff!important;color:#171511!important}
+.button.dark-outline{background:transparent!important;border-color:#1a1a1a!important;color:#1a1a1a!important}
+.cta-band{background:#c9975a!important;color:#171511!important}
+.cta-band .button{background:#1a1a1a!important;border-color:#1a1a1a!important;color:#fff!important}
+.cta-band .button.outline{background:transparent!important;border-color:#1a1a1a!important;color:#1a1a1a!important}
