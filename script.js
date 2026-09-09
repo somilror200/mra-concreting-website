@@ -1,7 +1,12 @@
 const redesignLink = document.createElement('link');
 redesignLink.rel = 'stylesheet';
-redesignLink.href = 'mra-redesign.css?v=20260909-1';
+redesignLink.href = 'mra-redesign.css?v=20260909-2';
 if (!document.querySelector('link[href*="mra-redesign.css"]')) document.head.appendChild(redesignLink);
+
+const compatLink = document.createElement('link');
+compatLink.rel = 'stylesheet';
+compatLink.href = 'mra-compat.css?v=20260909-2';
+if (!document.querySelector('link[href*="mra-compat.css"]')) document.head.appendChild(compatLink);
 
 const headerHost = document.getElementById('site-header');
 const footerHost = document.getElementById('site-footer');
